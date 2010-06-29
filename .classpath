@@ -4,7 +4,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/groovy"/>
-	<classpathentry kind="lib" path="jfelix/dropins/fr.imag.adele.cadse.test.runtime-2.3.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="jfelix/bundles/org.eclipse.jdt.junit4.runtime-1.1.100-v20100526.0800.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

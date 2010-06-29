@@ -17,7 +17,7 @@ public class SamTest extends FelixTestCase {
 		
 		run.addBundelInM2("fr.imag.adele.cadse.test.runtime", gId, "fr.imag.adele.cadse.test.runtime", vId)
 		
-		
+		run.ant.project.properties.put("test.cadseToExecute", "CadseG,sam.core,sam.composite")
 		/* TEST */
 		CadseTestPart tp = addTestPart(null, 'SamTest',
 			'fr.imag.adele.cadse.test.runtime','fr.imag.adele.cadse.test.runtime.SamRuntime_ts')
