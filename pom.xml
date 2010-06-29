@@ -4,7 +4,6 @@
 		<artifactId>fr.imag.adele.cadse.parent</artifactId>
 		<groupId>fr.imag.adele.cadse.runtime</groupId>
 		<version>2.3.0-SNAPSHOT</version>
-		<relativePath>../fr.imag.adele.cadse.parent</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.imag.adele.cadse.runtime</groupId>
