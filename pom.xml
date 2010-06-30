@@ -31,9 +31,6 @@
 			<version>2.2.1</version>
 			<type>pom</type>
 		</dependency>
-
-
-
 	</dependencies>
 	<build>
 		<plugins>
@@ -378,7 +375,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>felixtests.SamTest</mainClass>
+							<mainClass>felixtests.ImportSamTest2</mainClass>
 						</configuration>
 					</execution>
 				</executions>
