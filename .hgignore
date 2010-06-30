@@ -6,5 +6,7 @@ target/*
 .DS_Store
 *~
 jfelix/SamTest/*
+jfelix/bundles/*
+jfelix/lib/*
 report/*
 META-INF/MANIFEST.MF
