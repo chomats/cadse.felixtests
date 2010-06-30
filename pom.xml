@@ -17,7 +17,7 @@
 			<scope>compile</scope>
 			<version>2.3.0-SNAPSHOT</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.eclipse</groupId>
 			<artifactId>org.eclipse.jdt.junit4.runtime</artifactId>
@@ -26,12 +26,14 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-  <groupId>org.apache.maven</groupId>
-  <artifactId>maven-core</artifactId>
-  <version>2.2.1</version>
-  <type>pom</type>
-</dependency>
-		
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-core</artifactId>
+			<version>2.2.1</version>
+			<type>pom</type>
+		</dependency>
+
+
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -76,6 +78,290 @@
 									<type>jar</type>
 									<outputDirectory>lib</outputDirectory>
 								</artifactItem>
+
+								<artifactItem>
+									<groupId>org.apache.felix</groupId>
+									<artifactId>org.apache.felix.main</artifactId>
+									<version>3.0.1</version>
+									<type>jar</type>
+									<outputDirectory>jfelix/lib</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse.runtime</groupId>
+									<artifactId>fr.imag.adele.felix.junit.runtime</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<type>jar</type>
+									<outputDirectory>jfelix/lib</outputDirectory>
+								</artifactItem>
+
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse</groupId>
+									<artifactId>org.eclipse.jdt.junit.runtime</artifactId>
+									<version>3.4.200.v20100526-0800</version>
+									<type>jar</type>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse</groupId>
+									<artifactId>org.eclipse.jdt.junit4.runtime</artifactId>
+									<version>1.1.100.v20100526-0800</version>
+									<type>jar</type>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse.runtime</groupId>
+									<artifactId>fr.imag.adele.remoteTestRunner</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<type>jar</type>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>junit</groupId>
+									<artifactId>junit.bundle</artifactId>
+									<version>4.8.1</version>
+									<type>jar</type>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+
+
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse.runtime</groupId>
+									<artifactId>compatility</artifactId>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.eclipse</groupId>
+									<artifactId>javax.servlet</artifactId>
+									<version>2.5.0-v200910301333</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.eclipse</groupId>
+									<artifactId>org.apache.log4j</artifactId>
+									<version>1.2.15-v201005080500</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>bak.pcj</groupId>
+									<artifactId>bak.pcj</artifactId>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>rhino</groupId>
+									<artifactId>js.bundle</artifactId>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.apache.felix</groupId>
+									<artifactId>org.apache.felix.ipojo</artifactId>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.eclipse</groupId>
+									<artifactId>com.google.collect</artifactId>
+									<version>0.8.0-v201006010502</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>mysql</groupId>
+									<artifactId>mysql-connector-java</artifactId>
+									<version>5.1.11</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.eclipse</groupId>
+									<artifactId>org.apache.xbean.xbean-reflect</artifactId>
+									<version>3.4.0</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.eclipse</groupId>
+									<artifactId>org.junit.bundle</artifactId>
+									<version>3.8.2.v20090203-1005</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.eclipse</groupId>
+									<artifactId>org.objectweb.asm</artifactId>
+									<version>3.2.0-v200909071300</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>util</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>util.io</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+									<type>jar</type>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>as.classreferencer</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>as.cu</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>as.findmodel</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>as.initmodel</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>as.loadservice</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>as.modelversiondbservice</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>as.operationfactory</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>as.persistence</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>as.platformeIDE</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>as.scmservice</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>as.test</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>cu.core</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.ModelVersionDB</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.defaultclassreferencer</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.defaultloadfactory</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.defaultoperationfactory.nl1</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.defaultoperationfactory</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.findmodel</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.initmodel</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.loadall</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.persistence</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.platformcmd</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>si.scmservice</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.apache.felix</groupId>
+									<artifactId>org.apache.felix.ipojo.metadata</artifactId>
+									<version>1.4.0</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.eclipse</groupId>
+									<artifactId>org.apache.commons.logging</artifactId>
+									<version>1.1.1-v201005080502</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>ipojo.model</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>${pom.groupId}</groupId>
+									<artifactId>Model.Workspace.CadseG</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+
 							</artifactItems>
 							<!-- other configurations here -->
 						</configuration>
