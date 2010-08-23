@@ -311,7 +311,7 @@
 									<outputDirectory>jfelix/bundles</outputDirectory>
 								</artifactItem>
 								<artifactItem>
-									<groupId>fr.imag.adele.cadse</groupId>
+									<groupId>fr.imag.adele.cadse.runtime</groupId>
 									<artifactId>Model.Workspace.CadseG</artifactId>
 									<outputDirectory>jfelix/bundles</outputDirectory>
 								</artifactItem>
@@ -419,7 +419,7 @@
 			<dependency>
 				<groupId>rhino</groupId>
 				<artifactId>js.bundle</artifactId>
-				<version>1.7.0</version>
+				<version>1.7.0-R2</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.felix</groupId>
