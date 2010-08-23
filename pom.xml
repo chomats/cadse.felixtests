@@ -344,7 +344,7 @@
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.cu</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.5-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.maven</groupId>
@@ -354,7 +354,7 @@
 			<dependency>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>org.apache.felix.main</artifactId>
-				<version>3.0.1</version>
+				<version>3.0.2</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse.runtime</groupId>
@@ -369,7 +369,7 @@
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>ipojo.model</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse.runtime</groupId>
@@ -409,27 +409,27 @@
 			<dependency>
 				<groupId>org.eclipse</groupId>
 				<artifactId>org.apache.log4j</artifactId>
-				<version>1.2.15-v201005080500</version>
+				<version>1.2.15</version>
 			</dependency>
 			<dependency>
 				<groupId>bak.pcj</groupId>
 				<artifactId>bak.pcj</artifactId>
-				<version>1</version>
+				<version>1.2.0</version>
 			</dependency>
 			<dependency>
 				<groupId>rhino</groupId>
 				<artifactId>js.bundle</artifactId>
-				<version>1.2</version>
+				<version>1.7.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>org.apache.felix.ipojo</artifactId>
-				<version>1.2</version>
+				<version>1.6.2</version>
 			</dependency>
 			<dependency>
 				<groupId>org.eclipse</groupId>
 				<artifactId>com.google.collect</artifactId>
-				<version>0.8.0-v201006010502</version>
+				<version>0.8.0-v201006170321</version>
 			</dependency>
 			<dependency>
 				<groupId>mysql</groupId>
@@ -454,128 +454,128 @@
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>util</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>util.io</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.3-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.classreferencer</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.cu</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.5-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.findmodel</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.1</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.initmodel</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.loadservice</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.modelversiondbservice</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.operationfactory</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.persistence</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.platformeIDE</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.scmservice</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>as.test</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>cu.core</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.ModelVersionDB</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-20100820.141009-4</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.defaultclassreferencer</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.defaultloadfactory</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.defaultoperationfactory.nl1</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.defaultoperationfactory</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.findmodel</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.initmodel</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.loadall</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.persistence</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.platformcmd</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>si.scmservice</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.felix</groupId>
@@ -589,5 +589,4 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 </project>
