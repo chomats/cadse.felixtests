@@ -242,7 +242,7 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>fr.imag.adele.cadse</groupId>
-									<artifactId>si.ModelVersionDB</artifactId>
+									<artifactId>si.modelversiondb</artifactId>
 									<outputDirectory>jfelix/bundles</outputDirectory>
 								</artifactItem>
 								<artifactItem>
@@ -524,8 +524,8 @@
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
-				<artifactId>si.ModelVersionDB</artifactId>
-				<version>2.3.2-20100820.141009-4</version>
+				<artifactId>si.modelversiondb</artifactId>
+				<version>2.3.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>fr.imag.adele.cadse</groupId>
