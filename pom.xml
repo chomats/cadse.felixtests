@@ -315,7 +315,11 @@
 									<artifactId>Model.Workspace.CadseG</artifactId>
 									<outputDirectory>jfelix/bundles</outputDirectory>
 								</artifactItem>
-
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse</groupId>
+									<artifactId>util.objectadapter</artifactId>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
 							</artifactItems>
 							<!-- other configurations here -->
 						</configuration>
@@ -586,6 +590,11 @@
 				<groupId>org.eclipse</groupId>
 				<artifactId>org.apache.commons.logging</artifactId>
 				<version>1.1.1-v201005080502</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.imag.adele.cadse</groupId>
+				<artifactId>util.objectadapter</artifactId>
+				<version>2.3.3-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
