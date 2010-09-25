@@ -31,6 +31,11 @@
 			<version>2.2.1</version>
 			<type>pom</type>
 		</dependency>
+		<dependency>
+			<groupId>fr.imag.adele.cadse.runtime</groupId>
+			<artifactId>fr.imag.adele.felix.junit.runtime</artifactId>
+			<version>2.3.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -115,7 +120,7 @@
 
 
 								<artifactItem>
-									<groupId>fr.imag.adele.cadse.runtime</groupId>
+									<groupId>fr.imag.adele.cadse</groupId>
 									<artifactId>compatility</artifactId>
 									<outputDirectory>jfelix/bundles</outputDirectory>
 								</artifactItem>
@@ -320,6 +325,24 @@
 									<artifactId>util.objectadapter</artifactId>
 									<outputDirectory>jfelix/bundles</outputDirectory>
 								</artifactItem>
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse.runtime</groupId>
+									<artifactId>Model.Workspace.sam.core</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse.runtime</groupId>
+									<artifactId>Model.Workspace.sam.composite</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>fr.imag.adele.cadse</groupId>
+									<artifactId>Selecta.constraint.language.extension</artifactId>
+									<version>2.3.0-SNAPSHOT</version>
+									<outputDirectory>jfelix/bundles</outputDirectory>
+								</artifactItem>
 							</artifactItems>
 							<!-- other configurations here -->
 						</configuration>
@@ -401,9 +424,9 @@
 				<version>4.8.1</version>
 			</dependency>
 			<dependency>
-				<groupId>fr.imag.adele.cadse.runtime</groupId>
+				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>compatility</artifactId>
-				<version>2.3.0-SNAPSHOT</version>
+				<version>2.3.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.eclipse</groupId>
@@ -595,6 +618,16 @@
 				<groupId>fr.imag.adele.cadse</groupId>
 				<artifactId>util.objectadapter</artifactId>
 				<version>2.3.2</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.imag.adele.cadse.runtime</groupId>
+				<artifactId>Model.Workspace.sam.core</artifactId>
+				<version>2.3.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.imag.adele.cadse.runtime</groupId>
+				<artifactId>Model.Workspace.sam.composite</artifactId>
+				<version>2.3.0-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
